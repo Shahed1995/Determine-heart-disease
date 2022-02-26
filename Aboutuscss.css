@@ -1,0 +1,100 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    }
+  
+  
+    
+    .infoteam {
+  
+      display: flex;
+      flex-direction: row;
+  
+    }
+  
+    .sub {
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 40%;
+    }
+  
+    .sub:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+  .navsectoin {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+   font-size: large;
+  }
+  
+  .subnav {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+  }
+  
+  .subnav .links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  
+  .subnav .links a {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+   
+  }
+  
+  .subnav .links a:hover {
+    font-size: 150%;
+  }
+  
+  .subnav .websitid{
+  
+  font-size: 25px;
+  color: #000000;
+  padding: 20px 20px 20px 20px;
+  width: 50px;
+  height: 50px;
+  
+  
+  }  
+  
+    .course {
+      color: grey;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 10px 10px;
+    }
+    
+  
+    img{
+  
+   width:300px ; height: 400px;
+  
+    }
+  a{
+  
+    text-decoration: none;
+  
+  }
+  
+  
+  footer {
+      
+    min-height:70px;
+    background: #123372;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+  }
