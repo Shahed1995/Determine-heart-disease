@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+   
+    <meta charset="UTF-8">
+    <title> إخضع للأختبار فحص  كتلة الجسم</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="diabetes.css">
+ 
+</head>
+<body>
+    <script src="diabetes.js">
+    </script>
+    <section class="navsectoin">
+      <nav class="subnav">
+       
+        <p class="websitid">طب القلب</p>
+       
+    
+        <div class="links">
+          <a href="main.html" >الرئيسية</a>- 
+          <a href="result.html" >الفحص المبدئي لمرض القلب</a>-
+          <a href="diabetes_test.html" >الفحص داء السكري  </a>-
+          <a href="contactus.html" >تواصل معنا</a>-
+          <a href="Aboutus.html" >من نحن</a>     
+             
+        </div>
+</section>
+<br>
+<div  id="divbody">
+<p  id="titlep" >اختبار خطر الإصابة بالسكري  </p>
+<br>
+
+<p id="parg">
+    تقييم خطر الإصابة بالنوع الثاني من مرض السكري، وتعتمد في ذلك على جنس وعمر الشخص ووزنه، واستعماله لأدوية ارتفاع ضغط الدم من عدمه، والتاريخ العائلي للإصابة بمرض السكري، والتدخين.
+
+</p>
+</div>
+
+
+<section class="contact">
+  
+    <div class="form">
+        
+      <div class="container">
+        <img src="img/diabetes2.jpg">  
+        <form>
+          <br>
+          <h3>إخضع للإختبار الآن</h3>
+          <br>
+          <label for="age"> كم عمرك </label>
+          <input type="text" id="age" name="age" placeholder="العمر">
+
+
+
+          <label for="gender">ما هو جنسك</label>
+          <select name="gender" id="gender" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="female">أنثى</option>
+          <option value="male">ذكر</option>
+        </select>
+
+          <label for="test">  هل لديك أحداً من أفراد العائلة سواء كان أب، أم، أخ، أخت أو طفل مصاب بداء السكري من النوع 1 أو 2؟
+        </label>
+          <select name="test" id="test" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="yes">نعم</option>
+          <option value="no">لا</option>
+        </select>
+        <label for="testforuser">  هل كنت تعاني من ارتفاع نسبة الجلوكوز في الدم (السكر) على سبيل المثال ، أثناء الفحص الطبي أو أثناء المرض أو أثناء الحمل؟
+
+        </label>
+          <select name="testforuser" id="testforuser" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="yes">نعم</option>
+          <option value="no">لا</option>
+        </select>
+        
+
+        <label for="brussers">  هل تعاني من ارتفاع ضغط الدم أو وصف لك الطبيب أدوية لعلاج ارتفاع ضغط الدم من قبل؟
+
+        </label>
+          <select name="brussers" id="brussers" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="yes">نعم</option>
+          <option value="no">لا</option>
+        </select>
+
+        
+       
+        <label for="smok"> هل أنت مدخن للسجائر أو أي منتجات تبغ أخرى بشكل يومي؟
+
+
+        </label>
+          <select name="smok" id="smok" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="yes">نعم</option>
+          <option value="no">لا</option>
+        </select>
+
+        
+
+        <label for="helthy">  كم مرة تأكل الخضروات أو الفاكهة؟
+
+        </label>
+          <select name="helthy" id="helthy" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="everyday">كل يوم</option>
+          <option value="sometime">احيانا</option>
+        </select>
+
+
+       
+
+
+        <label for="sport">   تقريباً، هل تمارس ما لا يقل عن 2.5 ساعة من النشاط البدني في الأسبوع (على سبيل المثال ، 30 دقيقة في اليوم ، في 5 أيام أو أكثر في الأسبوع)؟
+
+
+        </label>
+          <select name="sport" id="sport" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="yes">نعم</option>
+          <option value="no">لا</option>
+        </select>
+
+
+
+
+        
+
+        <label for="wghit">  ما هو مقاس خصرك؟
+
+
+        </label>
+          <select name="wghit" id="wghit" >
+            <option  value="" disabled selected hidden> ...إختر   </option>
+            <option value="one">أقل من 90سم</option>
+          <option value="two">من 90سم إلى 100سم </option>
+          <option value="three">أكثر من 100سم</option>
+        </select>
+
+
+
+
+
+       
+
+          <p>سوف يتم تحليل مدخلاتك الآن لتحديد  نسبة إصابتك بمرض السكري   </p><br>
+          <button   class="btnresult" href="diabetes_test.html"   onclick="diabetes()"> ارسال</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+<footer>© 2022 - حلول أمراض القلب   (مسابقة مليون مبرمج أردني)- جميع الحقوق محفوظة</footer>
+ 
+
+</body>
+</html>
