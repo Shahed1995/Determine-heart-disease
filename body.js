@@ -7,20 +7,14 @@
 
             if (h <= 0) {
                 alert("الرجاء إدخال الطول من فضلك");
-                return false;
             } else if (h <= 10 || h > 300) {
                 alert("الرجاء إدخال الطول بالشكل الصحيح من فضلك");
-                return false;
             } else if (w <= 0) {
                 alert("الرجاء إدخال الوزن من فضلك");
-                return false;
             } else if (w < 10 || w > 350) {
                 alert("الرجاء إدخال الوزن بالشكل الصحيح من فضلك");
-                return false;
             } else if (gender.length <= 0) {
-                alert("الرجاء إدخال الجنس من فضلك");
-                return false;
-            }
+                alert("الرجاء إدخال الجنس من فضلك");  }
 
             if (BMI <= 15) {
                 alert("انت تعاني من مجاعة\n وهذا مؤشر خطير");
